@@ -1,0 +1,27 @@
+format: jb-book
+root: index
+chapters:
+  - file: 01-atlas-orientation
+  - file: 02-data-and-provenance
+  - file: 03-baselines-and-anomalies
+  - file: 04-seasons-and-stripes
+  - file: 05-heat-and-cold
+  - file: 06-rain-and-water
+  - file: 07-drought
+  - file: 08-wind-and-radiation
+  - file: 09-snow-and-ice
+  - file: 10-ocean-and-circulation
+  - file: 11-scenarios-and-ensembles
+  - file: 12-global-warming-levels
+  - file: 13-uncertainty-and-bias
+  - file: 14-regions-and-weights
+  - file: 15-interactive-2d-maps
+  - file: 16-globes-and-3d-maps
+  - file: 17-3d-scenes
+  - file: 18-monitoring-and-urban
+  - file: 19-bring-real-data
+  - file: 20-capstone
+  - file: variables
+  - file: data-guide
+  - file: learning-resources
+  - file: credits

@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-15",
+  "node": "v22.23.5",
+  "pyodide": "314.0.4",
+  "python": "3.14.2 (main, Aug  4 2026, 04:48:59) [Clang 23.0.0git (https:/github.com/llvm/llvm-project e5927fecf8a6ce89e1a4eac5b8",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8",
+    "plotly": "6.5.0",
+    "piplite": "0.8.3"
+  },
+  "notebooks": [
+    {
+      "notebook": "01-atlas-orientation.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "02-data-and-provenance.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "03-baselines-and-anomalies.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "04-seasons-and-stripes.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "05-heat-and-cold.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "06-rain-and-water.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "07-drought.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "08-wind-and-radiation.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "09-snow-and-ice.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "10-ocean-and-circulation.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "11-scenarios-and-ensembles.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "12-global-warming-levels.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "13-uncertainty-and-bias.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "14-regions-and-weights.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "15-interactive-2d-maps.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "16-globes-and-3d-maps.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "17-3d-scenes.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "18-monitoring-and-urban.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "19-bring-real-data.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "20-capstone.ipynb",
+      "status": "passed"
+    }
+  ],
+  "limits": [
+    "Node-hosted WebAssembly, not browser UI.",
+    "Packages were loaded from a local cache; browser network and service-worker behavior remain untested.",
+    "No WebGL rendering was tested."
+  ],
+  "runtime_messages": [
+    "Loading Pillow, Pygments, asttokens, contourpy, cycler, decorator, executing, fonttools, ipython, kiwisolver, matplotlib, matplotlib-inline, micropip, numpy, packaging, pandas, prompt_toolkit, pure-eval, pyparsing, python-dateutil, pytz, six, stack-data, traitlets, wcwidth",
+    "Loaded Pillow, Pygments, asttokens, contourpy, cycler, decorator, executing, fonttools, ipython, kiwisolver, matplotlib, matplotlib-inline, micropip, numpy, packaging, pandas, prompt_toolkit, pure-eval, pyparsing, python-dateutil, pytz, six, stack-data, traitlets, wcwidth",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "       Field                                              Value",
+    "0      Title  Gridded dataset underpinning the Copernicus In...",
+    "1        DOI                              10.24381/cds.h35hb680",
+    "2    Licence                                          CC-BY-4.0",
+    "3  Published                               2024-06-17T00:00:00Z",
+    "4    Updated                               2026-05-28T00:00:00Z",
+    "                                      Analysis specification",
+    "question   How does summer mean temperature change in a s...",
+    "variable                        t (near-surface temperature)",
+    "dataset            choose ERA5 for a past-climate comparison",
+    "region           record the exact selected region or polygon",
+    "reference                                          1991–2020",
+    "baseline                                           1961–1990",
+    "season                                                   JJA",
+    "statistic                mean, then reference minus baseline",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "                                  file  ...  verified",
+    "0    reference/CMIP6_WarmingLevels.csv  ...      True",
+    "1  reference/ne_110m_coastline.geojson  ...      True",
+    "2       reference/atlas-catalogue.json  ...      True",
+    "",
+    "[3 rows x 4 columns]",
+    "              family  ...                                           question",
+    "0  Observation-based  ...                      What did instruments observe?",
+    "1         Reanalysis  ...  What physical state best fits available evidence?",
+    "2         Projection  ...           What could happen under stated forcings?",
+    "",
+    "[3 rows x 3 columns]",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "{'application/vnd.plotly.v1+json': {'data': [{'mode': 'lines', 'name': '1961–1990 baseline', 'x': {'dtype': 'i4', 'bdata': 'qQcAAKoHAACrBwAArAcAAK0HAACuBwAArwcAALAHAACxBwAAsgcAALMHAAC0BwAAtQcAALYHAAC3BwAAuAcAALkHAAC6BwAAuwcAALwHAAC9BwAAvgcAAL8HAADABwAAwQcAAMIHAADDBwAAxAcAAMUHAADGBwAAxwcAAMgHAADJBwAAygcAAMsHAADMBwAAzQcAAM4HAADPBwAA0AcAANEHAADSBwAA0wcAANQHAADVBwAA1gcAANcHAADYBwAA2QcAANoHAADbBwAA3AcAAN0HAADeBwAA3wcAAOAHAADhBwAA4gcAAOMHAADkBwAA'}, 'y': {'dtype': 'f8', 'bdata': 'p7DIhmK127+n4bDjhTrUv",
+    "Descriptive slope of the invented series: 0.285 °C per decade",
+    "      a_old  a_new",
+    "year              ",
+    "2016  1.476  0.617",
+    "2017  1.383  0.523",
+    "2018  1.113  0.254",
+    "2019  1.008  0.148",
+    "2020  1.351  0.491",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "{'application/vnd.plotly.v1+json': {'data': [{'mode': 'lines+markers', 'name': '1961–1990', 'x': {'dtype': 'i4', 'bdata': 'AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA'}, 'y': {'dtype': 'f8', 'bdata': 'n8lFkkBVEUAB5cS/HP8VQIsMMRPKayFApW+RnMGNKkA0y2GeNuYxQPapE7xsOTVAScJaeYViNkAB6rxI0To1QGn8VAXlxjFAesNg+HjIKkDGsZuEkN4hQO+xX/YNhBVA'}, 'type': 'scatter'}, {'mode': 'lines+markers', 'name': '1991–2020', 'x': {'dtype': 'i4', 'bdata': 'AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAA",
+    "{'application/vnd.plotly.v1+json': {'data': [{'colorbar': {'title': {'text': 'Δ °C'}}, 'colorscale': [[0.0, 'rgb(5,48,97)'], [0.1, 'rgb(33,102,172)'], [0.2, 'rgb(67,147,195)'], [0.3, 'rgb(146,197,222)'], [0.4, 'rgb(209,229,240)'], [0.5, 'rgb(247,247,247)'], [0.6, 'rgb(253,219,199)'], [0.7, 'rgb(244,165,130)'], [0.8, 'rgb(214,96,77)'], [0.9, 'rgb(178,24,43)'], [1.0, 'rgb(103,0,31)']], 'x': {'dtype': 'i4', 'bdata': 'AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAA'}, 'y': {'dtype':",
+    "               mean_t  n",
+    "season_year             ",
+    "1962         4.562138  3",
+    "1963         4.464624  3",
+    "1964         5.113176  3",
+    "1965         4.896526  3",
+    "1966         5.019298  3",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "                                    SYNTHETIC index value",
+    "tx35 days (>35 °C)                                   29.0",
+    "tx40 days (>40 °C)                                    0.0",
+    "tropical nights (>20 °C)                             42.0",
+    "frost days (<0 °C)                                  106.0",
+    "cooling degree-days (base 22 °C)                    490.1",
+    "heating degree-days (base 15.5 °C)                 1683.0",
+    "{'application/vnd.plotly.v1+json': {'data': [{'name': 'Daily maxima', 'x': {'dtype': 'f8', 'bdata': 'zPEZgyDtH0CLg2W8Fn0bQLDtvas07SFArklXeM58JEBkr0ZqPD4nQNBG6zTWCSNAnJAfHxZMIEBrhfq3oZEeQBp4Yj2FVyVAMrSCeiTRKEC+hyADtk4jQJbqUG9jdRpAkp46pBeRHEDFdvU3YXooQExZyiXU2yJA/i3yyOkwFkD0lQmOg6whQLyOuc80shpAye3JCLb3HkBYdAg2gA4gQCTS/qd1Vx5AgJcwlLxCJEDOiJs0XNMhQMmjqNp2hB9AJXRuhhfNI0Dz/2LnKoklQFrmQmNWaRdA6Z8mxOlRIUB3t2GSSgAdQBScj7Kv0CFAtU2L40PiGkDrgd5+HMgiQN41/8B5pyJAmqFS3eKzIUCkxzf5OLMdQCrff9kKliFAggUpglDiHUBHLow",
+    "       tx_mean    txx    tnn",
+    "month                       ",
+    "1         8.66  12.41  -8.45",
+    "2        10.08  16.90  -7.86",
+    "3        14.42  18.06  -2.58",
+    "4        20.85  25.98   1.06",
+    "5        28.14  33.67   8.29",
+    "6        32.27  37.09  13.02",
+    "7        35.30  39.95  16.79",
+    "8        33.69  39.78  14.62",
+    "9        29.05  32.88   9.52",
+    "10       22.47  29.48   3.47",
+    "11       15.94  22.26  -3.00",
+    "12       10.96  16.51  -6.23",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "                            SYNTHETIC",
+    "annual total (mm)             1096.13",
+    "wet days (≥1 mm)               129.00",
+    "heavy days (≥10 mm)             43.00",
+    "very heavy days (≥20 mm)         7.00",
+    "wet-day intensity (mm/day)       8.45",
+    "Rx1day (mm)                     31.59",
+    "Rx5day (mm)                     68.82",
+    "{'application/vnd.plotly.v1+json': {'data': [{'name': 'Daily precipitation', 'x': {'dtype': 'i4', 'bdata': 'AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoA",
+    "        date         r  days  monthly_total_mm",
+    "0 1961-01-01  3.259320    31        101.038918",
+    "1 1961-02-01  3.459506    28         96.866166",
+    "2 1961-03-01  2.394293    31         74.223083",
+    "3 1961-04-01  2.178979    30         65.369381",
+    "4 1961-05-01  2.143635    31         66.452679",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "{'application/vnd.plotly.v1+json': {'data': [{'fill': 'tozeroy', 'name': 'Six-month P − PET', 'x': ['1961-01-01T00:00:00.000000', '1961-02-01T00:00:00.000000', '1961-03-01T00:00:00.000000', '1961-04-01T00:00:00.000000', '1961-05-01T00:00:00.000000', '1961-06-01T00:00:00.000000', '1961-07-01T00:00:00.000000', '1961-08-01T00:00:00.000000', '1961-09-01T00:00:00.000000', '1961-10-01T00:00:00.000000', '1961-11-01T00:00:00.000000', '1961-12-01T00:00:00.000000', '1962-01-01T00:00:00.000000', '1962-02-0",
+    "Longest confirmed dry spell: 3 days",
+    "On incomplete real daily data this is a lower bound, not a complete annual CDD.",
+    "Ready. Browser edits live in this browser; download work you want to keep.",
+    "                                              0",
+    "mean ideal power density (W/m²)           249.6",
+    "ideal power density at mean speed (W/m²)  142.7",
+    "{'application/vnd.plotly.v1+json': {'data': [{'nbinsx': 30, 'x': {'dtype': 'f8', 'bdata': 'Ild+cu0fFUCyke7wZ48gQJlJfAzOvBRA/WFeeeiHJ0D/wS2xSCQZQFxPKQJqFRBAKfrtgAkbHUCqGGP0o84AQM3/V7kAvPU/WD+gdx9KFUDmcHza3D8NQKlhIYtxURFAJ+tWaNP0AUDOfh4GF5EXQFyrUw2zkyJATVoO/OxPGUCFJAsTmNgIQO3pNEkErw9AGxqDDw+iGUCcagXhXUknQAIf4JF8hhtAn/FASuqx+z9Kv7bjX3cVQF+uDMwwuRRA6FvYS6iS7D+IDGBKpzgXQD/Fb0RTfg5ALCoR0v1dB0AAT+F2DgEhQNxVhuaSDxtAFgDHazv8H0B/y4yoW2ALQF471xkgMxBA0r6vk3OjEkCRgNdzXk4LQLeMW0RbxhdANVmyVlwvG0D0uJ4QR5AmQLZdR",
+    "180 W/m² for 30 days = 129.6 kWh/m²"
+  ]
+}

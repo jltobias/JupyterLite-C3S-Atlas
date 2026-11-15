@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-15",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\DATA\\JupyterLite-C3S-Atlas\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "plotly": "6.5.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "notebooks": [
+    {
+      "notebook": "01-atlas-orientation.ipynb",
+      "status": "passed",
+      "seconds": 2.96,
+      "source_sha256": "594e90892108192a1165a81ed79877c309f6a022096142040f5848f052fb59b8",
+      "code_cells": 3
+    },
+    {
+      "notebook": "02-data-and-provenance.ipynb",
+      "status": "passed",
+      "seconds": 2.7,
+      "source_sha256": "19e28925fa41f91c9d64e445d7e02ed360651f06b0c188e2c4150e9374bf8903",
+      "code_cells": 3
+    },
+    {
+      "notebook": "03-baselines-and-anomalies.ipynb",
+      "status": "passed",
+      "seconds": 4.74,
+      "source_sha256": "c0253144d402424379cdf79bc2e65b74f362088a388b816aac34f590552ce043",
+      "code_cells": 3
+    },
+    {
+      "notebook": "04-seasons-and-stripes.ipynb",
+      "status": "passed",
+      "seconds": 3.23,
+      "source_sha256": "71528fad46dbadcbaefba67d94070a8fdfe1d878d26e26db742ca038782998eb",
+      "code_cells": 3
+    },
+    {
+      "notebook": "05-heat-and-cold.ipynb",
+      "status": "passed",
+      "seconds": 3.17,
+      "source_sha256": "fa54d3382889087785d5f036fd08eafa772046af2270bc9e80313cbcaa294f19",
+      "code_cells": 3
+    },
+    {
+      "notebook": "06-rain-and-water.ipynb",
+      "status": "passed",
+      "seconds": 3.15,
+      "source_sha256": "f07f1e1247db8a0325441cbd2d56b76182a4052eec3615967647fa8fb6f518e4",
+      "code_cells": 3
+    },
+    {
+      "notebook": "07-drought.ipynb",
+      "status": "passed",
+      "seconds": 3.11,
+      "source_sha256": "3fb2170cc3072ffac830515bfe52ca2da370aecbe7559d3ccd5c72e8db49558b",
+      "code_cells": 3
+    },
+    {
+      "notebook": "08-wind-and-radiation.ipynb",
+      "status": "passed",
+      "seconds": 3.13,
+      "source_sha256": "b3d11a0f092df152e274f6ed6378bdea178a2317a9f80e8751cc6d0c7ded00d7",
+      "code_cells": 3
+    },
+    {
+      "notebook": "09-snow-and-ice.ipynb",
+      "status": "passed",
+      "seconds": 3.13,
+      "source_sha256": "a67e793a4b3729c506261bbd8f8cec63f446f2031a3aa9875bf0263a98c73e32",
+      "code_cells": 3
+    },
+    {
+      "notebook": "10-ocean-and-circulation.ipynb",
+      "status": "passed",
+      "seconds": 3.22,
+      "source_sha256": "ab5f219e0dd9f3b7b41459c2a93707d712121f18709a779306f713b6cfc29866",
+      "code_cells": 3
+    },
+    {
+      "notebook": "11-scenarios-and-ensembles.ipynb",
+      "status": "passed",
+      "seconds": 3.12,
+      "source_sha256": "dd8d494ab3d1d03cf9204f9d52d01463447b490974fb09eaae143be74af57f7c",
+      "code_cells": 3
+    },
+    {
+      "notebook": "12-global-warming-levels.ipynb",
+      "status": "passed",
+      "seconds": 3.17,
+      "source_sha256": "07da8eee483f9f66752cf8da2f2a6b05750dd173d64152fd62991024b4db102a",
+      "code_cells": 3
+    },
+    {
+      "notebook": "13-uncertainty-and-bias.ipynb",
+      "status": "passed",
+      "seconds": 3.13,
+      "source_sha256": "47da44e69e4358d05dca183de0ae77b18e714313ba1637cf742f1ae8e012b3d0",
+      "code_cells": 3
+    },
+    {
+      "notebook": "14-regions-and-weights.ipynb",
+      "status": "passed",
+      "seconds": 3.25,
+      "source_sha256": "dc330623215c1fbfda443e8e67bd9b6e56e8677cd9aa35eb18dd29dd5b5febe3",
+      "code_cells": 3
+    },
+    {
+      "notebook": "15-interactive-2d-maps.ipynb",
+      "status": "passed",
+      "seconds": 3.69,
+      "source_sha256": "674f33a83ca8c17dabb8b64e8ba84d6c70cd2d2837ccd86ff8946ac30c5c51ea",
+      "code_cells": 3
+    },
+    {
+      "notebook": "16-globes-and-3d-maps.ipynb",
+      "status": "passed",
+      "seconds": 3.9,
+      "source_sha256": "a4be91a6470781a946695e4a87ed8de3896f04e0ff7d7c1b5fd2b702ce4e774f",
+      "code_cells": 3
+    },
+    {
+      "notebook": "17-3d-scenes.ipynb",
+      "status": "passed",
+      "seconds": 3.32,
+      "source_sha256": "24800a942fca25c0a6574f7938f5aaf2ab20da4cf260197878bb584e434e515e",
+      "code_cells": 3
+    },
+    {
+      "notebook": "18-monitoring-and-urban.ipynb",
+      "status": "passed",
+      "seconds": 3.16,
+      "source_sha256": "3a9809a580af2f3076ccf0219be5669861200e772dd136adbc1a6edf1219b933",
+      "code_cells": 3
+    },
+    {
+      "notebook": "19-bring-real-data.ipynb",
+      "status": "passed",
+      "seconds": 2.8,
+      "source_sha256": "21573a457045c441edeb511ab5352b63389ce19fcd490cfbade66f9f02d98ede",
+      "code_cells": 3
+    },
+    {
+      "notebook": "20-capstone.ipynb",
+      "status": "passed",
+      "seconds": 3.12,
+      "source_sha256": "e563ff3d5ee15c939a85249f1031bad5f21ea0214482e78fc2e812272c5abe6f",
+      "code_cells": 3
+    }
+  ],
+  "reference_manifest_sha256": "3ad1a3ddc1a744a5f9ebad2fa5b141041e4c2b4215a808d714999e042dbc268e",
+  "helper_sha256": "afd9bb21b5ce9e2fdd9c147b2fef413041fbe78fa113a444a0a1927496b0bb09",
+  "limits": [
+    "Native Python execution is not browser execution.",
+    "No authenticated CDS retrieval or user-provided data analysis was run."
+  ]
+}

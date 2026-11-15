@@ -1,0 +1,21 @@
+title: "JupyterLite-C3S-Atlas"
+author: "JupyterLite-C3S-Atlas contributors"
+copyright: "2026; original educational material. Source data retain their licences."
+logo: assets/atlas-splash.png
+only_build_toc_files: true
+execute:
+  execute_notebooks: 'off'
+repository:
+  url: https://github.com/jltobias/JupyterLite-C3S-Atlas
+  path_to_book: content
+  branch: main
+html:
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: '<a href="../lite/lab/index.html">Open JupyterLite Lab</a> · <a href="../index.html">Project home</a>'
+sphinx:
+  config:
+    html_static_path: ['_static']
+    html_css_files: ['atlas.css']
+    nb_execution_mode: 'off'
+    suppress_warnings: ['mystnb.unknown_mime_type']

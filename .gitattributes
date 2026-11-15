@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png -text
+# Preserve downloaded source bytes and upstream licence formatting exactly.
+content/data/reference/** -text -whitespace
+licenses/** -text -whitespace
+content/licenses/** -text -whitespace
+# Markdown hard line breaks inside the notebook-authoring template are intentional.
+scripts/generate_notebooks.py whitespace=-blank-at-eol

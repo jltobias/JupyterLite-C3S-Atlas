@@ -1,0 +1,8 @@
+:root { --pst-color-primary: #087e8b; --pst-color-link: #087180; }
+.bd-article-container { max-width: 1040px; }
+.bd-article h1 { letter-spacing: -.025em; }
+.bd-article img { border-radius: 12px; }
+.bd-article p { line-height: 1.7; }
+.bd-article table { font-size: .92rem; }
+.plotly-graph-div { max-width: 100%; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
