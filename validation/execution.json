@@ -216,12 +216,13 @@
       "code_cells": 3
     }
   ],
-  "reference_manifest_sha256": "3ad1a3ddc1a744a5f9ebad2fa5b141041e4c2b4215a808d714999e042dbc268e",
-  "helper_sha256": "afd9bb21b5ce9e2fdd9c147b2fef413041fbe78fa113a444a0a1927496b0bb09",
+  "reference_manifest_sha256": "26385ea517f0e9b9865dd6648df92463cb40779ec76619a9445f793b56dcc682",
+  "helper_sha256": "1acb1222667bc9d9df3bec3a43869872ed37b69f97d64e5bd4c79674d9df651a",
   "pulse_helper_sha256": "d93dd2b69807099415e7ed4e21cefdfb99e757d75e524458d2b8ba481646d7b8",
-  "pulse_manifest_sha256": "169a7b90b3dcd9250a50907306870d9cb8efb92d81893ec02d512ab8f4fddccc",
+  "pulse_manifest_sha256": "fc410036625eb526efc814c71bfe113dc64ce43837e904c53922fcda37d0ecea",
   "limits": [
     "Native Python execution is not browser execution.",
     "No authenticated CDS retrieval or user-provided data analysis was run."
-  ]
+  ],
+  "text_hash_policy": "UTF-8 text normalized to LF; downloaded data hashes in manifests use original bytes"
 }

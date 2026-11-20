@@ -17,6 +17,9 @@ The WebAssembly check ran Python 3.14 with the Pyodide distribution's packages,
 separately from the desktop Python 3.13 environment. See the JSON records for exact
 versions. It used a local package cache and exercised the actual notebook code;
 it did not replace the lesson calculations with a different implementation.
+Validation hashes for UTF-8 helper/manifest text normalize line endings to LF so
+Windows and Linux agree. Downloaded CSV checksums in the data manifests always
+refer to their original, unmodified bytes. Notebook hashes cover joined cell sources.
 
 ## Climate Pulse extension
 

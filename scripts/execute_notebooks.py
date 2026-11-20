@@ -18,6 +18,14 @@ from jupyter_client import KernelManager
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def text_sha256(path):
+    """Hash UTF-8 source text with LF line endings across Git/Windows/Linux.
+
+    Raw downloaded data keep their independent byte hashes in the manifests.
+    """
+    return hashlib.sha256(path.read_text(encoding='utf-8').encode('utf-8')).hexdigest()
+
+
 def main():
     records = []
     for path in sorted((ROOT / 'content').glob('*.ipynb')):
@@ -45,10 +53,11 @@ def main():
                     ['numpy', 'pandas', 'matplotlib', 'plotly', 'nbformat', 'nbclient', 'ipykernel']}
     report = dict(date='2026-11-20', python=sys.version, executable=sys.executable,
                   packages=dependencies, notebooks=records,
-                  reference_manifest_sha256=hashlib.sha256((ROOT/'content/data/manifest.json').read_bytes()).hexdigest(),
-                  helper_sha256=hashlib.sha256((ROOT/'content/atlas_helpers.py').read_bytes()).hexdigest(),
-                  pulse_helper_sha256=hashlib.sha256((ROOT/'content/pulse_helpers.py').read_bytes()).hexdigest(),
-                  pulse_manifest_sha256=hashlib.sha256((ROOT/'content/data/pulse/manifest.json').read_bytes()).hexdigest(),
+                  text_hash_policy='UTF-8 text normalized to LF; downloaded data hashes in manifests use original bytes',
+                  reference_manifest_sha256=text_sha256(ROOT/'content/data/manifest.json'),
+                  helper_sha256=text_sha256(ROOT/'content/atlas_helpers.py'),
+                  pulse_helper_sha256=text_sha256(ROOT/'content/pulse_helpers.py'),
+                  pulse_manifest_sha256=text_sha256(ROOT/'content/data/pulse/manifest.json'),
                   limits=['Native Python execution is not browser execution.',
                           'No authenticated CDS retrieval or user-provided data analysis was run.'])
     (out/'execution.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
