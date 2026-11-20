@@ -43,10 +43,12 @@ def main():
     out.mkdir(exist_ok=True)
     dependencies = {name: importlib.metadata.version(name) for name in
                     ['numpy', 'pandas', 'matplotlib', 'plotly', 'nbformat', 'nbclient', 'ipykernel']}
-    report = dict(date='2026-11-15', python=sys.version, executable=sys.executable,
+    report = dict(date='2026-11-20', python=sys.version, executable=sys.executable,
                   packages=dependencies, notebooks=records,
                   reference_manifest_sha256=hashlib.sha256((ROOT/'content/data/manifest.json').read_bytes()).hexdigest(),
                   helper_sha256=hashlib.sha256((ROOT/'content/atlas_helpers.py').read_bytes()).hexdigest(),
+                  pulse_helper_sha256=hashlib.sha256((ROOT/'content/pulse_helpers.py').read_bytes()).hexdigest(),
+                  pulse_manifest_sha256=hashlib.sha256((ROOT/'content/data/pulse/manifest.json').read_bytes()).hexdigest(),
                   limits=['Native Python execution is not browser execution.',
                           'No authenticated CDS retrieval or user-provided data analysis was run.'])
     (out/'execution.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')

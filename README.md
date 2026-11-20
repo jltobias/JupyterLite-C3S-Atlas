@@ -6,7 +6,7 @@
 
 An independent educational Jupyter Book and JupyterLite Lab for exploring the
 [Copernicus Interactive Climate Atlas](https://atlas.climate.copernicus.eu/).
-Twenty Python notebooks connect climate questions with reproducible calculations,
+Twenty-nine Python notebooks connect climate questions with reproducible calculations,
 charts, interactive maps, rotating globes, and three-dimensional scenes.
 Each chapter opens with an original splash illustration and includes a guiding
 question, worked code, an interpretation check, an official-Atlas exercise, and credits.
@@ -21,6 +21,9 @@ question, worked code, an interpretation check, an official-Atlas exercise, and 
 | 2D maps | [Explore interactive maps](https://jltobias.github.io/JupyterLite-C3S-Atlas/maps/) | Pan, zoom, inspect values, and compare colour scales. |
 | 3D maps and globes | [Rotate the globe](https://jltobias.github.io/JupyterLite-C3S-Atlas/globe/) | Inspect geographic patterns on a sphere. |
 | 3D scenes | [Explore climate scenes](https://jltobias.github.io/JupyterLite-C3S-Atlas/scenes/) | Explore year, season, and anomaly in three dimensions. |
+| Climate Pulse lab | [Explore ENSO](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/) | Real ERA5 snapshots, relative indices, region maps, globe, heatmap, and 3D calendar. |
+| ENSO storymap | [One Pacific, two perspectives](https://jltobias.github.io/JupyterLite-C3S-Atlas/stories/enso/) | Follow a five-panel evidence story and create your own. |
+| RustGIS and GeoLibre | [Open GIS notebook](https://jltobias.github.io/JupyterLite-C3S-Atlas/book/28-rustgis-geolibre.html) | Export attributed GeoJSON and open it in either browser GIS. |
 | Learning resources | [Resources and training](https://jltobias.github.io/JupyterLite-C3S-Atlas/book/learning-resources.html) | Continue with official C3S courses, notebooks, and media. |
 
 The [Pages workflow](https://github.com/jltobias/JupyterLite-C3S-Atlas/actions/workflows/pages.yml)
@@ -31,6 +34,15 @@ The [official C3S Atlas](https://atlas.climate.copernicus.eu/) and
 existing resources.
 
 ## The course
+
+**New: Climate Pulse 2.0 and ENSO (21–29).** Nine additional chapters use seven
+authentic, CC-BY-licensed C3S/ECMWF ERA5 CSV exports archived **20 November 2026**.
+The [interactive dashboard](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/)
+links time-series selections to regional views; the
+[storymap](https://jltobias.github.io/JupyterLite-C3S-Atlas/stories/enso/)
+connects geography, seasonal comparisons, relative indices, and an auditable claim.
+These are dated snapshots, not live conditions. Shaded boxes encode regional means,
+not gridded SST. [Methods, data provenance, integrations, and citations](docs/pulse-guide.md).
 
 | Chapter | Notebook | Main idea |
 | --- | --- | --- |
@@ -54,6 +66,15 @@ existing resources.
 | 18 | [Monitoring and urban context](content/18-monitoring-and-urban.ipynb) | Separate anomalies, paired contrasts, and local exposure. |
 | 19 | [Bring real C3S data](content/19-bring-real-data.ipynb) | Validate a small authentic export and its provenance. |
 | 20 | [Reproducible capstone](content/20-capstone.ipynb) | Build a cited evidence card with a bounded conclusion. |
+| 21 | [Climate Pulse observatory](content/21-climate-pulse-observatory.ipynb) | Audit real exports, dates, status, and source hashes. |
+| 22 | [Pacific regions](content/22-pacific-regions.ipynb) | Locate four Niño regions and handle the antimeridian. |
+| 23 | [Warm versus unusual](content/23-pulse-baselines.ipynb) | Compare SST, climatology, and matching calendar months. |
+| 24 | [Relative ENSO](content/24-relative-enso.ipynb) | Compare published traditional and relative indices. |
+| 25 | [Time, ranks, records](content/25-time-ranks-and-records.ipynb) | Exclude partial months; inspect ranks and rolling windows. |
+| 26 | [Pulse maps and globes](content/26-pulse-maps-and-globes.ipynb) | Explore the spatial support of real regional averages. |
+| 27 | [ENSO and global context](content/27-enso-and-global-context.ipynb) | Examine trend/lag sensitivity without causal overclaims. |
+| 28 | [RustGIS and GeoLibre](content/28-rustgis-geolibre.ipynb) | Export portable GeoJSON with source, units, and licences. |
+| 29 | [ENSO story lab](content/29-enso-story-lab.ipynb) | Create a heatmap, 3D calendar surface, and evidence card. |
 
 The [coverage index](content/variables.md) maps the 35 base CDS Atlas variables to
 the chapters and identifies the official workflows linked for advanced methods.
@@ -65,6 +86,11 @@ claim to reproduce every production algorithm or to bundle every dataset.
 - **Authentic bundled references:** a pinned CMIP6 warming-level table from the
   C3S Atlas User Tools, a CDS catalogue snapshot, and Natural Earth coastlines.
   [File-level provenance and hashes](content/data/manifest.json) identify exact inputs.
+- **Real Climate Pulse data:** seven original ERA5 time-series CSVs, including
+  all four Niño regions, with [their own manifest](content/data/pulse/manifest.json).
+  Monthly SST ends in October 2026; daily Niño 3.4 ends 18 November. Daily header
+  notes specify 12 UTC SST despite a generic daily-means description; the lessons
+  preserve that caveat and do not equate daily aggregation with the monthly product.
 - **Synthetic teaching examples:** small seeded datasets and analytic fields
   demonstrate methods. They are explicitly labelled in the lessons and figures.
   They are not C3S observations, projections, forecasts, or official map products.
@@ -97,6 +123,21 @@ and usage terms remain attached. No copied screenshots, logos, or video files ar
 included. All exercises have written instructions.
 
 ## Citations, attribution, and licences
+
+For the new Pulse chapters, credit **C3S/ECMWF/European Union and the ERA5 teams**;
+CSV headers state **CC BY 4.0**. The derived visuals contain modified Copernicus
+Climate Change Service information (2026). Cite **Hersbach et al. (2020)**,
+[ERA5](https://doi.org/10.1002/qj.3803), the
+[monthly](https://doi.org/10.24381/cds.f17050d7) and
+[hourly](https://doi.org/10.24381/cds.adbb2d47) datasets, and **Tim Stockdale (2026)**,
+[relative Niño methodology](https://doi.org/10.21957/d05ccfe150).
+Credit **Qiusheng Wu and the RustGIS authors/contributors**,
+[RustGIS citation](https://doi.org/10.5281/zenodo.23633281) (Apache-2.0), and
+**Qiusheng Wu, Daniel Hofbauer, and GeoLibre contributors**,
+[GeoLibre citation](https://doi.org/10.5281/zenodo.20785400) (MIT).
+[Full author lists, source files, transformations, and training links](docs/pulse-guide.md)
+accompany the lessons. External GIS apps are linked, not redistributed. No publisher
+screenshots, article passages, logos, or video files have been copied.
 
 Credit **Copernicus Climate Change Service (C3S), implemented by ECMWF on behalf of
 the European Union**, and the **CSIC/Predictia** Atlas teams. Credit the underlying

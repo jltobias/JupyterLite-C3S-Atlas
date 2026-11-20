@@ -2,6 +2,7 @@
 *.png -text
 # Preserve downloaded source bytes and upstream licence formatting exactly.
 content/data/reference/** -text -whitespace
+content/data/pulse/** -text -whitespace
 licenses/** -text -whitespace
 content/licenses/** -text -whitespace
 # Markdown hard line breaks inside the notebook-authoring template are intentional.

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-20",
+  "states": 16,
+  "checks": [
+    "known snapshot rank",
+    "four regions × four views",
+    "relative time-series vs traditional spatial values",
+    "antimeridian patches",
+    "calendar indexing",
+    "partial-month rejection",
+    "chart selection",
+    "share parameters"
+  ],
+  "limits": [
+    "DOM/Plotly adapters only; no browser rendering, WebGL, CORS, or external GIS interaction."
+  ]
+}

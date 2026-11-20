@@ -21,7 +21,17 @@ chapters:
   - file: 18-monitoring-and-urban
   - file: 19-bring-real-data
   - file: 20-capstone
+  - file: 21-climate-pulse-observatory
+  - file: 22-pacific-regions
+  - file: 23-pulse-baselines
+  - file: 24-relative-enso
+  - file: 25-time-ranks-and-records
+  - file: 26-pulse-maps-and-globes
+  - file: 27-enso-and-global-context
+  - file: 28-rustgis-geolibre
+  - file: 29-enso-story-lab
   - file: variables
   - file: data-guide
+  - file: pulse-guide
   - file: learning-resources
   - file: credits

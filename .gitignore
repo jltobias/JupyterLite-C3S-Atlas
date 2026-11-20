@@ -12,6 +12,7 @@ _site/
 pytest-cache-files-*/
 _bmad.setup-*/
 node_modules/
+content/exports/
 .cdsapirc
 .env
 data/raw/

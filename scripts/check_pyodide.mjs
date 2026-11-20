@@ -63,7 +63,7 @@ const versions = JSON.parse(py.runPython(`
 import json, sys, importlib.metadata
 json.dumps(dict(python=sys.version, packages={name:importlib.metadata.version(name) for name in ['numpy','pandas','matplotlib','plotly','piplite']}))
 `));
-const report = { date: '2026-11-15', node: process.version, pyodide: py.version, ...versions,
+const report = { date: '2026-11-20', node: process.version, pyodide: py.version, ...versions,
   notebooks: records, limits: ['Node-hosted WebAssembly, not browser UI.',
     'Packages were loaded from a local cache; browser network and service-worker behavior remain untested.',
     'No WebGL rendering was tested.'], runtime_messages: messages };

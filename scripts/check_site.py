@@ -22,7 +22,7 @@ def main():
     errors, checked = [], 0
     # JupyterLite's app routes are application-generated; test its required files separately.
     files = [SITE/'index.html'] + list((SITE/'book').glob('*.html'))
-    for folder in ['maps', 'globe', 'scenes']:
+    for folder in ['maps', 'globe', 'scenes', 'pulse', 'stories/enso']:
         files.extend((SITE/folder).glob('*.html'))
     for path in files:
         parser = Links()
@@ -36,7 +36,8 @@ def main():
                 errors.append(f'{path.relative_to(SITE)} -> {url}')
             checked += 1
     for required in ['lite/lab/index.html', 'lite/api/contents/all.json', 'book/index.html',
-                     'maps/plot.html', 'globe/plot.html', 'scenes/plot.html', 'assets/plotly.min.js']:
+                     'maps/plot.html', 'globe/plot.html', 'scenes/plot.html', 'assets/plotly.min.js',
+                     'pulse/data/monthly.json', 'pulse/data/enso-regions.geojson', 'stories/enso/index.html']:
         if not (SITE/required).is_file():
             errors.append('Missing: '+required)
     if errors:

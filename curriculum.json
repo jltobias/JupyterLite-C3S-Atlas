@@ -118,5 +118,59 @@
     "title": "A reproducible regional climate story",
     "question": "Can you communicate one result without overstating the evidence?",
     "data": "Real CMIP6 auxiliary warming-level table; independent regional extension uses user-supplied C3S data"
+  },
+  {
+    "slug": "21-climate-pulse-observatory",
+    "title": "Climate Pulse: a reproducible observatory",
+    "question": "What does a near-real-time climate dashboard actually measure?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "22-pacific-regions",
+    "title": "Four windows on the tropical Pacific",
+    "question": "Why does Ni\u00f1o 4 need two polygons on a longitude map?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "23-pulse-baselines",
+    "title": "Warm water, unusual water",
+    "question": "Is the hottest month also the most anomalous month?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "24-relative-enso",
+    "title": "ENSO against a warming ocean",
+    "question": "What changes when the tropical background is removed?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "25-time-ranks-and-records",
+    "title": "Days, seasons, and record claims",
+    "question": "When is a record comparison fair?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "26-pulse-maps-and-globes",
+    "title": "One statistic, two geographic views",
+    "question": "What does a coloured region reveal\u2014and what does it conceal?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "27-enso-and-global-context",
+    "title": "Association is a question, not a mechanism",
+    "question": "How does a shared trend change an apparent ENSO relationship?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "28-rustgis-geolibre",
+    "title": "From Python to RustGIS and GeoLibre",
+    "question": "Can another GIS preserve your numbers and their meaning?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "29-enso-story-lab",
+    "title": "A Pacific story in five evidence panels",
+    "question": "Can you tell a compelling story without outrunning the evidence?",
+    "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
   }
 ]

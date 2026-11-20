@@ -1,0 +1,93 @@
+[
+  {
+    "file": "pulse/timeseries_era5_sst_monthly_nino12.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_sst_monthly_nino12.csv",
+    "bytes": 25506,
+    "sha256": "a25517e034c9def87bd6f72b77f73adaba45187ad3d17969dab7f279a068931f",
+    "retrieved": "2026-11-20T15:30:53.062529+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_sst_monthly_nino3.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_sst_monthly_nino3.csv",
+    "bytes": 25526,
+    "sha256": "620e9ad289e7cbf29a7a084d34cd15d556a2c7a7e16f1d9d9457a59c8962dbcf",
+    "retrieved": "2026-11-20T15:30:53.041127+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_sst_monthly_nino34.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_sst_monthly_nino34.csv",
+    "bytes": 25484,
+    "sha256": "e286b86e919c629faeea7b3dbdcf98a40ca0be6371dff517d73b0cab5bc7bafe",
+    "retrieved": "2026-11-20T15:30:53.041361+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_sst_monthly_nino4.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_sst_monthly_nino4.csv",
+    "bytes": 25412,
+    "sha256": "812e822b0b42fcb213036ed4872daf12d5b42ca450520d0c2f929bd286d68f42",
+    "retrieved": "2026-11-20T15:30:53.043625+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_sst_monthly_60S-60N_ocean.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_sst_monthly_60S-60N_ocean.csv",
+    "bytes": 20895,
+    "sha256": "50fc036b37eb9d34dd267c20de70999e939fead41b8cb96ad940fb195708d0cb",
+    "retrieved": "2026-11-20T15:30:53.563828+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_t2m_monthly_global.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/monthly/timeseries_era5_t2m_monthly_global.csv",
+    "bytes": 50236,
+    "sha256": "ce6d64db643b5394ee31b18c28dd186a6e884892fc085f84728c3724efa186b3",
+    "retrieved": "2026-11-20T15:30:53.613706+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.f17050d7",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  },
+  {
+    "file": "pulse/timeseries_era5_sst_daily_nino34.csv",
+    "url": "https://sites.ecmwf.int/data/climatepulse/timeseries/csv/daily/timeseries_era5_sst_daily_nino34.csv",
+    "bytes": 842750,
+    "sha256": "2f815320c3eeb46f5a74c4626efca0b2c53048235e6ae88d1530466e267efcd7",
+    "retrieved": "2026-11-20T15:30:54.988238+00:00",
+    "revision": "Dated snapshot of a mutable public CSV; see original header",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Copernicus Climate Change Service (C3S), ECMWF, European Union; ERA5 teams",
+    "doi": "10.24381/cds.adbb2d47",
+    "transformations": "None; original CSV bytes and metadata header retained"
+  }
+]

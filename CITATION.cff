@@ -7,5 +7,5 @@ authors:
 repository-code: "https://github.com/jltobias/JupyterLite-C3S-Atlas"
 url: "https://jltobias.github.io/JupyterLite-C3S-Atlas/"
 license: MIT
-date-released: 2026-11-15
-abstract: "Independent educational notebooks exploring C3S Atlas concepts, with explicit synthetic examples, real auxiliary reference data, and reproducible browser visualizations."
+date-released: 2026-11-20
+abstract: "Independent educational notebooks exploring C3S Atlas and Climate Pulse, with labelled synthetic examples, real ERA5 regional time-series snapshots, reference data, open GIS handoffs, and reproducible browser visualizations."

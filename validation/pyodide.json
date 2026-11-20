@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-20",
   "node": "v22.23.5",
   "pyodide": "314.0.4",
   "python": "3.14.2 (main, Aug  4 2026, 04:48:59) [Clang 23.0.0git (https:/github.com/llvm/llvm-project e5927fecf8a6ce89e1a4eac5b8",
@@ -89,6 +89,42 @@
     },
     {
       "notebook": "20-capstone.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "21-climate-pulse-observatory.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "22-pacific-regions.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "23-pulse-baselines.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "24-relative-enso.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "25-time-ranks-and-records.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "26-pulse-maps-and-globes.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "27-enso-and-global-context.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "28-rustgis-geolibre.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "29-enso-story-lab.ipynb",
       "status": "passed"
     }
   ],

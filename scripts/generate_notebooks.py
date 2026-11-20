@@ -727,6 +727,8 @@ display(pd.Series(card).to_frame("Evidence card"))
 
 def main():
     """Write notebook sources; execution and site builds are separate explicit steps."""
+    from pulse_lessons import register
+    register(lesson)
     (CONTENT / 'assets').mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / 'assets/atlas-splash.png', CONTENT / 'assets/atlas-splash.png')
     for position, entry in enumerate(LESSONS):
@@ -739,8 +741,8 @@ def main():
 
 **Data:** {entry['data']}  
 **Time:** 20–35 minutes · **Prerequisites:** basic Python; run cells from top to bottom.  
-**Author:** JupyterLite-C3S-Atlas contributors (AI assisted) · **Created/updated:** 2026-11-15  
-**Inputs:** bundled reference files and/or seeded examples specified below. **Outputs:** in-memory tables and figures; source data are not modified.  
+**Author:** JupyterLite-C3S-Atlas contributors (AI assisted) · **Created/updated:** {'2026-11-20' if position >= 20 else '2026-11-15'}  
+**Inputs:** bundled reference files and/or seeded examples specified below. **Outputs:** tables, figures, and any explicitly named local exports; source data are not modified.  
 **Runtime:** Python/Pyodide; NumPy, pandas, Matplotlib, Plotly; versions and tests are recorded in the validation report.  
 **Change log:** initial educational chapter. **Contact:** [repository issues](https://github.com/jltobias/JupyterLite-C3S-Atlas/issues).
 
@@ -753,7 +755,7 @@ def main():
         cells.extend([
             nbf.v4.new_markdown_cell('## Try it and explain\n\n'+entry['exercise']),
             nbf.v4.new_markdown_cell('**Interpretation check:** '+entry['answer']),
-            nbf.v4.new_markdown_cell('## Transfer to the official Atlas\n\n'+entry['atlas_task']+'\n\nRecord the selections, source version, units, periods, and uncertainty legend. These independent lessons do not duplicate every production workflow in the official tools.'),
+            nbf.v4.new_markdown_cell('## Transfer to the official tools\n\n'+entry['atlas_task']+'\n\nRecord the selections, source version, units, periods, and uncertainty legend. These independent lessons do not duplicate every production workflow in the official tools.'),
             nbf.v4.new_markdown_cell('## Sources and credit\n\n'+ '\n'.join(f'- [{label}]({url})' for label, url in [
                 ('C3S Atlas dataset and DOI', DATASET), ('CSIC / Predictia Atlas user guide', GUIDE),
                 ('Official C3S Atlas User Tools and contributors', UPSTREAM)] + entry['sources']) +

@@ -90,6 +90,8 @@ def main():
         page.write_text(page.read_text(encoding='utf-8').replace(
             'https://jltobias.github.io/JupyterLite-C3S-Atlas/', '../'), encoding='utf-8')
     galleries(out)
+    from build_pulse import build as build_pulse
+    build_pulse(out)
     if not args.skip_lite:
         # Contents are staged without book build products, avoiding recursive distribution.
         lite_contents = ROOT/'_build/lite-content'
@@ -98,7 +100,7 @@ def main():
             if not lite_contents.resolve().is_relative_to((ROOT/'_build').resolve()):
                 raise ValueError('Unexpected staging path')
             shutil.rmtree(lite_contents)
-        shutil.copytree(ROOT/'content', lite_contents, ignore=shutil.ignore_patterns('_build', '_static', '_config.yml', '_toc.yml', '__pycache__'))
+        shutil.copytree(ROOT/'content', lite_contents, ignore=shutil.ignore_patterns('_build', '_static', '_config.yml', '_toc.yml', '__pycache__', 'exports'))
         run(cli('jupyter-lite'), 'build', '--contents', str(lite_contents),
             '--output-dir', str(out/'lite'))
     (out/'.nojekyll').touch()

@@ -31,6 +31,15 @@ that every official algorithm is reproduced. Check the current
 | Independent 3D educational scenes | 17 |
 | Monitoring and urban context | 18 (concepts; official product linked) |
 | Data exports and communication | 19–20 |
+| Climate Pulse source audit, recent data and temporal support | 21 |
+| Niño 1+2, 3, 3.4, 4; antimeridian geometry | 22 |
+| ERA5 SST, climatology, historical event-year comparisons | 23 |
+| Traditional and published relative Niño indices | 24 |
+| Complete-month aggregation, same-calendar-month ranks | 25 |
+| Regional-mean maps and globes (not gridded SST) | 26 |
+| Global air temperature and ENSO association sensitivity | 27 |
+| RustGIS/GeoLibre GeoJSON file and URL handoffs | 28 |
+| ENSO storymaps, heatmaps, and 3D calendar scenes | 29 |
 
 For production SPI/SPEI, bias adjustment, significance/robustness hatching, regridding,
 and urban diagnostics, use the linked

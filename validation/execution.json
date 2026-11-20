@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-20",
   "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
   "executable": "C:\\DATA\\JupyterLite-C3S-Atlas\\.venv\\Scripts\\python.exe",
   "packages": {
@@ -15,146 +15,211 @@
     {
       "notebook": "01-atlas-orientation.ipynb",
       "status": "passed",
-      "seconds": 2.96,
-      "source_sha256": "594e90892108192a1165a81ed79877c309f6a022096142040f5848f052fb59b8",
+      "seconds": 3.27,
+      "source_sha256": "9270d46798ae75548da8602d87bc74e83cbe6f91c7ce7d7e82418aa624ad2f38",
       "code_cells": 3
     },
     {
       "notebook": "02-data-and-provenance.ipynb",
       "status": "passed",
-      "seconds": 2.7,
-      "source_sha256": "19e28925fa41f91c9d64e445d7e02ed360651f06b0c188e2c4150e9374bf8903",
+      "seconds": 2.95,
+      "source_sha256": "79a39ea2efd0167262d97f2fd124e7703dd1a1959b1452ed9fd347a8c9f91f49",
       "code_cells": 3
     },
     {
       "notebook": "03-baselines-and-anomalies.ipynb",
       "status": "passed",
-      "seconds": 4.74,
-      "source_sha256": "c0253144d402424379cdf79bc2e65b74f362088a388b816aac34f590552ce043",
+      "seconds": 3.46,
+      "source_sha256": "2057e20ff55ab32bc4eb1522a92765dcbe0c9837dee3048f899ef869e9d063dc",
       "code_cells": 3
     },
     {
       "notebook": "04-seasons-and-stripes.ipynb",
       "status": "passed",
-      "seconds": 3.23,
-      "source_sha256": "71528fad46dbadcbaefba67d94070a8fdfe1d878d26e26db742ca038782998eb",
+      "seconds": 3.26,
+      "source_sha256": "7bb85478f227a43798c098b0e01eace49ad413067db7d5c8bf907023b1cd90f9",
       "code_cells": 3
     },
     {
       "notebook": "05-heat-and-cold.ipynb",
       "status": "passed",
-      "seconds": 3.17,
-      "source_sha256": "fa54d3382889087785d5f036fd08eafa772046af2270bc9e80313cbcaa294f19",
+      "seconds": 3.25,
+      "source_sha256": "8b8d70acc8b93f26e092b687dcdfb3e73a908c3f49513a24950dc8c287964a58",
       "code_cells": 3
     },
     {
       "notebook": "06-rain-and-water.ipynb",
       "status": "passed",
-      "seconds": 3.15,
-      "source_sha256": "f07f1e1247db8a0325441cbd2d56b76182a4052eec3615967647fa8fb6f518e4",
+      "seconds": 3.23,
+      "source_sha256": "db06a055d952113830815ac18e93f329f46a024cc2531132c6ab030ccda74335",
       "code_cells": 3
     },
     {
       "notebook": "07-drought.ipynb",
       "status": "passed",
-      "seconds": 3.11,
-      "source_sha256": "3fb2170cc3072ffac830515bfe52ca2da370aecbe7559d3ccd5c72e8db49558b",
+      "seconds": 3.22,
+      "source_sha256": "d370be3c5d8355c62a1214458055e21a23626a56387c24675fed1dfd0c15bb92",
       "code_cells": 3
     },
     {
       "notebook": "08-wind-and-radiation.ipynb",
       "status": "passed",
-      "seconds": 3.13,
-      "source_sha256": "b3d11a0f092df152e274f6ed6378bdea178a2317a9f80e8751cc6d0c7ded00d7",
+      "seconds": 3.14,
+      "source_sha256": "3522695136b4cbc7ca42e702922f5d0149dacd10293c51c76977f22e55f2daa8",
       "code_cells": 3
     },
     {
       "notebook": "09-snow-and-ice.ipynb",
       "status": "passed",
-      "seconds": 3.13,
-      "source_sha256": "a67e793a4b3729c506261bbd8f8cec63f446f2031a3aa9875bf0263a98c73e32",
+      "seconds": 3.2,
+      "source_sha256": "96e6e3b257f48db20288807a652f0cb2e13daaec996912146f46982f0490e68d",
       "code_cells": 3
     },
     {
       "notebook": "10-ocean-and-circulation.ipynb",
       "status": "passed",
-      "seconds": 3.22,
-      "source_sha256": "ab5f219e0dd9f3b7b41459c2a93707d712121f18709a779306f713b6cfc29866",
+      "seconds": 3.19,
+      "source_sha256": "8e8e75d4c63c49e55e844e75986a4ea7089fe3b9af10012283388a97286a4b11",
       "code_cells": 3
     },
     {
       "notebook": "11-scenarios-and-ensembles.ipynb",
       "status": "passed",
-      "seconds": 3.12,
-      "source_sha256": "dd8d494ab3d1d03cf9204f9d52d01463447b490974fb09eaae143be74af57f7c",
+      "seconds": 3.16,
+      "source_sha256": "4f89d058a26328b593587db2ef83cabc2d55d73a86a76bcff5c09862a5e06072",
       "code_cells": 3
     },
     {
       "notebook": "12-global-warming-levels.ipynb",
       "status": "passed",
-      "seconds": 3.17,
-      "source_sha256": "07da8eee483f9f66752cf8da2f2a6b05750dd173d64152fd62991024b4db102a",
+      "seconds": 3.21,
+      "source_sha256": "5544cd6435941110acc48c22325d175416d62b9657f3106abb4a0221f6c73f7f",
       "code_cells": 3
     },
     {
       "notebook": "13-uncertainty-and-bias.ipynb",
       "status": "passed",
-      "seconds": 3.13,
-      "source_sha256": "47da44e69e4358d05dca183de0ae77b18e714313ba1637cf742f1ae8e012b3d0",
+      "seconds": 3.17,
+      "source_sha256": "3a8a575d833d77f89271fc168c344b888392d0ce7d8d50ab28db7c906d36b5dc",
       "code_cells": 3
     },
     {
       "notebook": "14-regions-and-weights.ipynb",
       "status": "passed",
-      "seconds": 3.25,
-      "source_sha256": "dc330623215c1fbfda443e8e67bd9b6e56e8677cd9aa35eb18dd29dd5b5febe3",
+      "seconds": 3.27,
+      "source_sha256": "98b44ce98389e06440c5d5c337eece503008d3e22a118fb9b25ea31c8402edd7",
       "code_cells": 3
     },
     {
       "notebook": "15-interactive-2d-maps.ipynb",
       "status": "passed",
-      "seconds": 3.69,
-      "source_sha256": "674f33a83ca8c17dabb8b64e8ba84d6c70cd2d2837ccd86ff8946ac30c5c51ea",
+      "seconds": 3.96,
+      "source_sha256": "819fff2dd37310033ced28fdd601ce4da798e4dd29c1a3cc20f556bcf28e052e",
       "code_cells": 3
     },
     {
       "notebook": "16-globes-and-3d-maps.ipynb",
       "status": "passed",
-      "seconds": 3.9,
-      "source_sha256": "a4be91a6470781a946695e4a87ed8de3896f04e0ff7d7c1b5fd2b702ce4e774f",
+      "seconds": 3.37,
+      "source_sha256": "1976c0f09f37916af2d1016dd7dc0fa2dcd5ba041de3356116db22437042492f",
       "code_cells": 3
     },
     {
       "notebook": "17-3d-scenes.ipynb",
       "status": "passed",
-      "seconds": 3.32,
-      "source_sha256": "24800a942fca25c0a6574f7938f5aaf2ab20da4cf260197878bb584e434e515e",
+      "seconds": 3.52,
+      "source_sha256": "699fd3179fb6eebccbad9997cd8003328c825c017d2e5eaaf9a0b9faff69877f",
       "code_cells": 3
     },
     {
       "notebook": "18-monitoring-and-urban.ipynb",
       "status": "passed",
-      "seconds": 3.16,
-      "source_sha256": "3a9809a580af2f3076ccf0219be5669861200e772dd136adbc1a6edf1219b933",
+      "seconds": 3.47,
+      "source_sha256": "e4b2a6913707b8e09d43e76675a1bd843de7ba9aac419cd2c50cfb43221e5bce",
       "code_cells": 3
     },
     {
       "notebook": "19-bring-real-data.ipynb",
       "status": "passed",
-      "seconds": 2.8,
-      "source_sha256": "21573a457045c441edeb511ab5352b63389ce19fcd490cfbade66f9f02d98ede",
+      "seconds": 2.93,
+      "source_sha256": "3d5c9ce9ef9ec7831d21d8358ebb996e599415b78061122f7f80d7795a3e7944",
       "code_cells": 3
     },
     {
       "notebook": "20-capstone.ipynb",
       "status": "passed",
-      "seconds": 3.12,
-      "source_sha256": "e563ff3d5ee15c939a85249f1031bad5f21ea0214482e78fc2e812272c5abe6f",
+      "seconds": 3.31,
+      "source_sha256": "017e9c4ca0bfae0649ed9f9d5b1cfbf80f99e3879cf15c25f9e00ab537bc4c44",
+      "code_cells": 3
+    },
+    {
+      "notebook": "21-climate-pulse-observatory.ipynb",
+      "status": "passed",
+      "seconds": 3.16,
+      "source_sha256": "cd77d639fad11736d12ca754a4864a1cd29526a803f10444e4a9914cb9f34c2b",
+      "code_cells": 3
+    },
+    {
+      "notebook": "22-pacific-regions.ipynb",
+      "status": "passed",
+      "seconds": 3.78,
+      "source_sha256": "c5861604eb9e4b4b888d09446f430ecbba44093d8702fc70e7f0f804ffdbc42d",
+      "code_cells": 3
+    },
+    {
+      "notebook": "23-pulse-baselines.ipynb",
+      "status": "passed",
+      "seconds": 4.13,
+      "source_sha256": "1ec86c86f479c74fcb7f700bf2279ee6e142b7877cd9951ceaa930eb7a740db9",
+      "code_cells": 3
+    },
+    {
+      "notebook": "24-relative-enso.ipynb",
+      "status": "passed",
+      "seconds": 4.43,
+      "source_sha256": "33ba2f1391fdca2d93af64f592fee38785d1a8cf601e9532e196258f9a6f16dd",
+      "code_cells": 3
+    },
+    {
+      "notebook": "25-time-ranks-and-records.ipynb",
+      "status": "passed",
+      "seconds": 3.13,
+      "source_sha256": "32fa547c5a9648d1963a09263d8dbbead4f7dfa683c6a56541d438b023693f49",
+      "code_cells": 3
+    },
+    {
+      "notebook": "26-pulse-maps-and-globes.ipynb",
+      "status": "passed",
+      "seconds": 4.86,
+      "source_sha256": "273259f5209dc2ffab94ca1a9d28709879f6fa7137ce2bc4c28904afa87bb13d",
+      "code_cells": 3
+    },
+    {
+      "notebook": "27-enso-and-global-context.ipynb",
+      "status": "passed",
+      "seconds": 3.24,
+      "source_sha256": "7b6ca9e546da9e6586016ea3744af7ed0a3440cd745545f9338dfc6432eb28a4",
+      "code_cells": 3
+    },
+    {
+      "notebook": "28-rustgis-geolibre.ipynb",
+      "status": "passed",
+      "seconds": 3.67,
+      "source_sha256": "ceb140e443455134d1ea9b2b9e66c8e70c9d620c23db57528b411dc677543cfa",
+      "code_cells": 3
+    },
+    {
+      "notebook": "29-enso-story-lab.ipynb",
+      "status": "passed",
+      "seconds": 3.63,
+      "source_sha256": "346f0c2fc910d2ae32c54627d4d7bce5db5c8e38ef745458ffdf8aba7a872f50",
       "code_cells": 3
     }
   ],
   "reference_manifest_sha256": "3ad1a3ddc1a744a5f9ebad2fa5b141041e4c2b4215a808d714999e042dbc268e",
   "helper_sha256": "afd9bb21b5ce9e2fdd9c147b2fef413041fbe78fa113a444a0a1927496b0bb09",
+  "pulse_helper_sha256": "d93dd2b69807099415e7ed4e21cefdfb99e757d75e524458d2b8ba481646d7b8",
+  "pulse_manifest_sha256": "169a7b90b3dcd9250a50907306870d9cb8efb92d81893ec02d512ab8f4fddccc",
   "limits": [
     "Native Python execution is not browser execution.",
     "No authenticated CDS retrieval or user-provided data analysis was run."

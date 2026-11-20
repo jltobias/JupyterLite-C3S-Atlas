@@ -69,3 +69,11 @@ Use small subsets. The full CDS archive, authenticated API clients, Dask cluster
 ESMF-based regridding, and upstream native-library workflows belong in a desktop
 or hosted scientific environment. WebGL must be enabled for 3D; use the companion
 2D views and numerical tables if it is unavailable.
+## Additional real Climate Pulse snapshots
+
+Chapters 21–29 use seven small, original Climate Pulse CSV exports under **CC BY 4.0**,
+archived on **20 November 2026**, with full headers and checksums. These contain real
+ERA5 regional time series, including traditional and relative Niño indices. They
+are separate from the course's labelled synthetic examples. Read the
+[Pulse data and integration guide](pulse-guide.md) before interpreting the outputs.
+The dashboard's shaded boxes are regional supports, not gridded SST data.

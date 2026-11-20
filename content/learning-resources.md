@@ -42,3 +42,20 @@ publisher so their captions, source credits, and usage terms remain available.
 The lessons do not require watching videos. Every exercise has written instructions,
 and interactive displays have data tables or static alternatives. Avoid inferring
 values from colour alone: read the legend and inspect numerical values.
+## Climate Pulse and open GIS learning route
+
+Start with the [nine new chapters](pulse-guide.md),
+[interactive Pulse lab](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/), and
+[ENSO storymap](https://jltobias.github.io/JupyterLite-C3S-Atlas/stories/enso/).
+For a 90-minute workshop, combine source auditing (21), relative ENSO (24), and
+the GIS export lab (28). For a longer course, follow all chapters 21–29.
+
+- [Official Climate Pulse and its in-app tutorial videos](https://pulse.climate.copernicus.eu/)
+- [C3S Climate Pulse 2.0 release and feature tour](https://climate.copernicus.eu/new-version-climate-pulse-provides-new-monitoring-el-nino-conditions)
+- [Tim Stockdale: relative Niño methodology](https://doi.org/10.21957/d05ccfe150)
+- [ECMWF: ENSO impacts, composites, and diversity of outcomes](https://confluence.ecmwf.int/spaces/CKB/pages/373753799/ENSO+impacts+based+on+ERA5+reanalysis)
+- [RustGIS user guide and training](https://rustgis.app/user-guide/)
+- [GeoLibre getting started](https://geolibre.app/getting-started/) and [projects/story maps](https://geolibre.app/user-guide/projects/)
+
+Publisher videos are linked at their sources; the course supplies original written
+explanations and executable alternatives. No publisher media are copied.

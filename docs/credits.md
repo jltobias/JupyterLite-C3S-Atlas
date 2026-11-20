@@ -65,3 +65,22 @@ Jupyter, JupyterLite, Pyodide, Jupyter Book, NumPy, pandas, Matplotlib, and Plot
 are projects of their respective contributors. Their distributions retain their own
 licences. The project's licence does not relicense third-party data, software, linked
 media, trademarks, or source publications.
+## Climate Pulse extension: source credit
+
+Chapters 21–29 and the Pulse dashboard/storymap contain original charts based on
+**Copernicus Climate Change Service (C3S), ECMWF, European Union, and ERA5 teams**.
+The seven unmodified source CSVs explicitly carry **CC BY 4.0**. Derived figures
+and region geometry: **Contains modified Copernicus Climate Change Service
+information (2026)**. Snapshot: 20 November 2026; modifications are explained in
+each lesson. No official endorsement is implied.
+
+Credit **Hersbach et al. (2020)**, [ERA5 paper](https://doi.org/10.1002/qj.3803),
+the [monthly dataset](https://doi.org/10.24381/cds.f17050d7),
+the [hourly dataset](https://doi.org/10.24381/cds.adbb2d47), and **Tim Stockdale (2026)**,
+[relative Niño methodology](https://doi.org/10.21957/d05ccfe150).
+RustGIS: **Qiusheng Wu, José Gregorio Rincón Albarracín, Elpidio Filho, Daniel Hofbauer,
+Mavrick Fitzgerald, Dominik Strebel, and contributors**, [citation](https://doi.org/10.5281/zenodo.23633281), Apache-2.0.
+GeoLibre: **Qiusheng Wu, Daniel Hofbauer, and contributors**, [citation](https://doi.org/10.5281/zenodo.20785400), MIT.
+These external applications are linked, not redistributed. See the
+[Pulse methods, full citations, and integration guide](pulse-guide.md) and
+[unchanged source manifest](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/data/source/manifest.json).
