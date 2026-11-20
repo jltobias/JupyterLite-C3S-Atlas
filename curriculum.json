@@ -172,5 +172,23 @@
     "title": "A Pacific story in five evidence panels",
     "question": "Can you tell a compelling story without outrunning the evidence?",
     "data": "Real C3S/ECMWF ERA5 Climate Pulse CSV snapshots retrieved 2026-11-20; CC BY 4.0"
+  },
+  {
+    "slug": "30-global-pulse-workshop",
+    "title": "Global temperature: from Pulse to Python",
+    "question": "How do global air and ocean records answer different questions?",
+    "data": "Real archived C3S/ECMWF ERA5 global air and ocean monthly CSVs; derived annual summaries"
+  },
+  {
+    "slug": "31-pulse-download-roundtrip",
+    "title": "Download, import, and audit a Pulse export",
+    "question": "Has a newer export added months, revised history, or changed its meaning?",
+    "data": "Real bundled Ni\u00f1o 3.4 CSV self-check by default; explicit optional learner-uploaded official monthly export"
+  },
+  {
+    "slug": "32-copernicus-apps-workshop",
+    "title": "A field guide to the Copernicus apps",
+    "question": "Which app supplies the evidence your question actually needs?",
+    "data": "Sourced factual app catalogue with original teaching annotations; empty learner evidence template; no fabricated app measurements"
   }
 ]

@@ -59,3 +59,12 @@ the GIS export lab (28). For a longer course, follow all chapters 21–29.
 
 Publisher videos are linked at their sources; the course supplies original written
 explanations and executable alternatives. No publisher media are copied.
+## Official-app workshops
+
+[Chapters 30–32](apps-guide.md) add global Pulse comparisons, an explicit CSV
+download/upload audit, and an 11-app catalogue investigation. Explore
+[official Pulse](https://pulse.climate.copernicus.eu/) and the
+[Copernicus applications catalogue](https://apps.climate.copernicus.eu/).
+Use [ERA Explorer's official notebooks](https://apps.copernicus-climate.eu/c3s-apps/era-explorer/notebooks/intro.html)
+and the [Weather Replay introduction/video](https://climate.copernicus.eu/weather-replay-your-time-machine-revisit-past-weather)
+for further training. Publisher media are linked, not republished.

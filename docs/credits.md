@@ -84,3 +84,11 @@ GeoLibre: **Qiusheng Wu, Daniel Hofbauer, and contributors**, [citation](https:/
 These external applications are linked, not redistributed. See the
 [Pulse methods, full citations, and integration guide](pulse-guide.md) and
 [unchanged source manifest](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/data/source/manifest.json).
+## Official applications catalogue
+
+The [app-connected workshops](apps-guide.md) credit ECMWF's Copernicus Data Stores
+Applications team, C3S/CAMS, and each linked application's authors and data producers.
+The bundled index contains factual names, destinations, service labels, and dataset
+identifiers, with original teaching questions. No app screenshots, descriptions,
+source code, or external app data are copied. Check individual product licences
+before reusing outputs; catalogue membership is not a universal data licence.

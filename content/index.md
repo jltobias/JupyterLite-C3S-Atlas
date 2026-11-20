@@ -15,7 +15,9 @@ communicate results with appropriate uncertainty.
 the [Pulse dashboard](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/),
 [five-panel storymap](https://jltobias.github.io/JupyterLite-C3S-Atlas/stories/enso/),
 and [new learning route](pulse-guide.md). Export regional GeoJSON for RustGIS and
-GeoLibre. This brings the course to **29 executable Python notebooks**.
+GeoLibre. Three further [official-app workshops](apps-guide.md) cover global Pulse
+records, CSV download/import, and 11 Copernicus applications. The course now has
+**32 executable Python notebooks**.
 
 ## Two ways to learn
 
@@ -38,6 +40,7 @@ storage, not GitHub: download work you want to keep. See the [data guide](data-g
 | Build a reproducible story | 19–20 | Import authentic C3S data and write a bounded, cited evidence card. |
 | Monitor the Pacific | 21–25 | Audit real Pulse data, locate Niño regions, compare relative indices, and calculate transparent ranks. |
 | Share the evidence | 26–29 | Explore region maps/globes, global context, GIS exports, and a reproducible storymap. |
+| Work with the official apps | 30–32 | Compare global monitoring views, audit a fresh export, and build a cross-app investigation. |
 
 ## Know what you are looking at
 

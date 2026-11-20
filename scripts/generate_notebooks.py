@@ -729,6 +729,8 @@ def main():
     """Write notebook sources; execution and site builds are separate explicit steps."""
     from pulse_lessons import register
     register(lesson)
+    from app_lessons import register as register_apps
+    register_apps(lesson, LESSONS)
     (CONTENT / 'assets').mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / 'assets/atlas-splash.png', CONTENT / 'assets/atlas-splash.png')
     for position, entry in enumerate(LESSONS):

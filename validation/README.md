@@ -5,11 +5,11 @@ scientific validation of the full C3S archive or the official Atlas algorithms.
 
 | Check | Result | Evidence |
 | --- | --- | --- |
-| Fresh-kernel native Python execution | All 29 notebooks passed | [execution.json](execution.json): versions, per-notebook source hashes, reference/helper hashes, counts, timings. |
-| Exact packaged Pyodide WebAssembly runtime, hosted in Node | All 29 notebooks passed, including actual piplite setup cells | [pyodide.json](pyodide.json): runtime/package versions and limitations. |
-| Numerical and import/export tests | Ten passed | `tests/`: independent weighting calculation, baseline shift, missing/duplicate dates, real GWL windows, NetCDF export and masked-cell failure; Pulse snapshot hashes, tied ranks, leap/partial months, and antimeridian GeoJSON. |
-| Jupyter Book | Built successfully with warnings treated as errors | `python scripts/build_site.py`; 29 executed chapters plus reference pages. |
-| JupyterLite | Built successfully | 29 packaged notebooks, shared helpers/data, Pyodide kernel, and Plotly MIME renderer. |
+| Fresh-kernel native Python execution | All 32 notebooks passed | [execution.json](execution.json): versions, per-notebook source hashes, reference/helper hashes, counts, timings. |
+| Exact packaged Pyodide WebAssembly runtime, hosted in Node | All 32 notebooks passed, including actual piplite setup cells | [pyodide.json](pyodide.json): runtime/package versions and limitations. |
+| Numerical and import/export tests | Fifteen passed | `tests/`: independent weighting calculation, baseline shift, missing/duplicate dates, real GWL windows, NetCDF export and masked-cell failure; Pulse snapshot hashes, tied ranks, leap/partial months, and antimeridian GeoJSON. |
+| Jupyter Book | Built successfully with warnings treated as errors | `python scripts/build_site.py`; 32 executed chapters plus reference pages. |
+| JupyterLite | Built successfully | 32 packaged notebooks, shared helpers/data, Pyodide kernel, and Plotly MIME renderer. |
 | Local HTML links/assets | All checked links resolve | `python scripts/check_site.py`; includes gallery, chapter, Lab, and asset targets. |
 | Figure inspection | Inspected original splash and rendered Matplotlib map panels | [Map figure](figures/15-interactive-2d-maps.png), [ocean/circulation figure](figures/10-ocean-and-circulation.png). |
 
@@ -39,6 +39,22 @@ outputs and visually inspected: [baseline panel](figures/23-pulse-baselines.png)
 The GeoLibre `data=` URL and RustGIS file import follow their official documentation.
 No native GIS package is installed into Pyodide, and no claim is made that the
 external application interfaces or notebook widgets were tested in a browser.
+
+## Official-app workshops
+
+Chapters 30?32 and the added Pulse launch cells passed native Python and Pyodide
+execution. Five additional tests cover share-link semantics, day-weighted complete
+years, importer rejection of changed metadata, revision/addition/removal separation,
+and the sourced 11-app catalogue. All 11 official launch URLs returned HTTP 200.
+This checks reachability, not the controls or rendering of those applications.
+
+The Pulse CSV host returned no cross-origin permission for this site's origin;
+the demonstrated live-data path is browser download followed by explicit Lab upload.
+Default execution performs a labelled self-check against the bundled real CSV.
+No fresh learner upload or external app UI was exercised. Known fixture changes
+exercise the revision audit in tests. Static outputs were visually inspected:
+[annual temperature panels](figures/30-global-pulse-workshop.png) and
+[catalogue matrix](figures/32-copernicus-apps-workshop.png).
 
 ## Remaining verification boundaries
 

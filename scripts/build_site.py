@@ -100,7 +100,7 @@ def main():
             if not lite_contents.resolve().is_relative_to((ROOT/'_build').resolve()):
                 raise ValueError('Unexpected staging path')
             shutil.rmtree(lite_contents)
-        shutil.copytree(ROOT/'content', lite_contents, ignore=shutil.ignore_patterns('_build', '_static', '_config.yml', '_toc.yml', '__pycache__', 'exports'))
+        shutil.copytree(ROOT/'content', lite_contents, ignore=shutil.ignore_patterns('_build', '_static', '_config.yml', '_toc.yml', '__pycache__', 'exports', 'uploads'))
         run(cli('jupyter-lite'), 'build', '--contents', str(lite_contents),
             '--output-dir', str(out/'lite'))
     (out/'.nojekyll').touch()

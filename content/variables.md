@@ -40,6 +40,9 @@ that every official algorithm is reproduced. Check the current
 | Global air temperature and ENSO association sensitivity | 27 |
 | RustGIS/GeoLibre GeoJSON file and URL handoffs | 28 |
 | ENSO storymaps, heatmaps, and 3D calendar scenes | 29 |
+| Official Pulse views, global air/SST and complete annual summaries | 30 |
+| Pulse CSV download/upload, schema checks, and revision audit | 31 |
+| Official app catalogue, evidence types, and case-study journals | 32 |
 
 For production SPI/SPEI, bias adjustment, significance/robustness hatching, regridding,
 and urban diagnostics, use the linked

@@ -77,3 +77,12 @@ ERA5 regional time series, including traditional and relative Niño indices. The
 are separate from the course's labelled synthetic examples. Read the
 [Pulse data and integration guide](pulse-guide.md) before interpreting the outputs.
 The dashboard's shaded boxes are regional supports, not gridded SST data.
+## Import a new Pulse export
+
+[Chapter 31 and the app guide](apps-guide.md) provide a browser download/upload
+workflow for official monthly Niño 3.4 CSVs. The default is explicitly a bundled
+snapshot self-check. Selecting a learner upload requires a switch and strict
+region/units/baseline/date validation; failures do not trigger a silent fallback.
+The audit separates new dates from revisions and saves a provenance sidecar.
+`content/uploads/` and `content/exports/` are ignored by Git and excluded from Lab
+packaging, so local learner files are not inadvertently published.

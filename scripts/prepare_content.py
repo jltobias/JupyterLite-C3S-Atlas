@@ -16,7 +16,7 @@ from atlas_helpers import monthly_demo
 
 def main():
     content = ROOT/'content'
-    for name in ['credits.md', 'learning-resources.md', 'data-guide.md', 'pulse-guide.md']:
+    for name in ['credits.md', 'learning-resources.md', 'data-guide.md', 'pulse-guide.md', 'apps-guide.md']:
         shutil.copy2(ROOT/'docs'/name, content/name)
     shutil.copytree(ROOT/'licenses', content/'licenses', dirs_exist_ok=True)
     shutil.copy2(ROOT/'assets/PROVENANCE.md', content/'assets/PROVENANCE.md')
@@ -33,7 +33,7 @@ def main():
     chapters = json.loads((ROOT/'curriculum.json').read_text(encoding='utf-8'))
     toc = 'format: jb-book\nroot: index\nchapters:\n'
     toc += ''.join('  - file: '+entry['slug']+'\n' for entry in chapters)
-    toc += '  - file: variables\n  - file: data-guide\n  - file: pulse-guide\n  - file: learning-resources\n  - file: credits\n'
+    toc += '  - file: variables\n  - file: data-guide\n  - file: pulse-guide\n  - file: apps-guide\n  - file: learning-resources\n  - file: credits\n'
     (content/'_toc.yml').write_text(toc, encoding='utf-8')
     print('Prepared portable documentation, table of contents, and synthetic import fixture.')
 

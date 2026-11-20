@@ -58,6 +58,8 @@ def main():
                   helper_sha256=text_sha256(ROOT/'content/atlas_helpers.py'),
                   pulse_helper_sha256=text_sha256(ROOT/'content/pulse_helpers.py'),
                   pulse_manifest_sha256=text_sha256(ROOT/'content/data/pulse/manifest.json'),
+                  app_helper_sha256=text_sha256(ROOT/'content/app_helpers.py'),
+                  apps_catalogue_sha256=text_sha256(ROOT/'content/data/apps/catalogue.json'),
                   limits=['Native Python execution is not browser execution.',
                           'No authenticated CDS retrieval or user-provided data analysis was run.'])
     (out/'execution.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')

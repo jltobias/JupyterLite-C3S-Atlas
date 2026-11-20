@@ -30,8 +30,12 @@ chapters:
   - file: 27-enso-and-global-context
   - file: 28-rustgis-geolibre
   - file: 29-enso-story-lab
+  - file: 30-global-pulse-workshop
+  - file: 31-pulse-download-roundtrip
+  - file: 32-copernicus-apps-workshop
   - file: variables
   - file: data-guide
   - file: pulse-guide
+  - file: apps-guide
   - file: learning-resources
   - file: credits

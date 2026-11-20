@@ -6,7 +6,7 @@
 
 An independent educational Jupyter Book and JupyterLite Lab for exploring the
 [Copernicus Interactive Climate Atlas](https://atlas.climate.copernicus.eu/).
-Twenty-nine Python notebooks connect climate questions with reproducible calculations,
+Thirty-two Python notebooks connect climate questions with reproducible calculations,
 charts, interactive maps, rotating globes, and three-dimensional scenes.
 Each chapter opens with an original splash illustration and includes a guiding
 question, worked code, an interpretation check, an official-Atlas exercise, and credits.
@@ -24,6 +24,7 @@ question, worked code, an interpretation check, an official-Atlas exercise, and 
 | Climate Pulse lab | [Explore ENSO](https://jltobias.github.io/JupyterLite-C3S-Atlas/pulse/) | Real ERA5 snapshots, relative indices, region maps, globe, heatmap, and 3D calendar. |
 | ENSO storymap | [One Pacific, two perspectives](https://jltobias.github.io/JupyterLite-C3S-Atlas/stories/enso/) | Follow a five-panel evidence story and create your own. |
 | RustGIS and GeoLibre | [Open GIS notebook](https://jltobias.github.io/JupyterLite-C3S-Atlas/book/28-rustgis-geolibre.html) | Export attributed GeoJSON and open it in either browser GIS. |
+| Official apps workshops | [Pulse and 11 Copernicus apps](https://jltobias.github.io/JupyterLite-C3S-Atlas/book/apps-guide.html) | Match official Pulse views, import CSV exports, and investigate other catalogue apps. |
 | Learning resources | [Resources and training](https://jltobias.github.io/JupyterLite-C3S-Atlas/book/learning-resources.html) | Continue with official C3S courses, notebooks, and media. |
 
 The [Pages workflow](https://github.com/jltobias/JupyterLite-C3S-Atlas/actions/workflows/pages.yml)
@@ -34,6 +35,13 @@ The [official C3S Atlas](https://atlas.climate.copernicus.eu/) and
 existing resources.
 
 ## The course
+
+**App-connected workshops (30–32):** use [official Climate Pulse](https://pulse.climate.copernicus.eu/)
+alongside Python; compare global air and ocean records, download/upload and audit a
+new CSV, and explore the [Copernicus apps catalogue](https://apps.climate.copernicus.eu/)
+through 11 app-specific exercises and an evidence journal. Chapters 21, 23, 24, and
+26 now generate links to matching official Pulse selections. See the
+[workshop guide](docs/apps-guide.md) for the tested import path and source credits.
 
 **New: Climate Pulse 2.0 and ENSO (21–29).** Nine additional chapters use seven
 authentic, CC-BY-licensed C3S/ECMWF ERA5 CSV exports archived **20 November 2026**.
@@ -75,6 +83,9 @@ not gridded SST. [Methods, data provenance, integrations, and citations](docs/pu
 | 27 | [ENSO and global context](content/27-enso-and-global-context.ipynb) | Examine trend/lag sensitivity without causal overclaims. |
 | 28 | [RustGIS and GeoLibre](content/28-rustgis-geolibre.ipynb) | Export portable GeoJSON with source, units, and licences. |
 | 29 | [ENSO story lab](content/29-enso-story-lab.ipynb) | Create a heatmap, 3D calendar surface, and evidence card. |
+| 30 | [Global Pulse workshop](content/30-global-pulse-workshop.ipynb) | Compare global air/ocean records and complete annual summaries with official views. |
+| 31 | [Pulse download roundtrip](content/31-pulse-download-roundtrip.ipynb) | Validate an export and distinguish added months from historical revisions. |
+| 32 | [Copernicus apps workshop](content/32-copernicus-apps-workshop.ipynb) | Explore 11 official apps and create a cross-app evidence journal. |
 
 The [coverage index](content/variables.md) maps the 35 base CDS Atlas variables to
 the chapters and identifies the official workflows linked for advanced methods.

@@ -1,0 +1,188 @@
+{
+  "source": "https://apps.climate.copernicus.eu/",
+  "source_about": "https://apps.climate.copernicus.eu/about",
+  "checked": "2026-11-20",
+  "scope": "11 entries observed in the official catalogue; availability and links can change",
+  "attribution": "Copernicus Data Stores Applications catalogue, ECMWF; C3S/CAMS and individual app/data contributors",
+  "reuse": "Factual names, URLs, programme and dataset identifiers with original project teaching annotations; no publisher descriptions, images or code copied.",
+  "entries": [
+    {
+      "id": "aerosol-alerts",
+      "name": "Aerosol Alerts",
+      "programme": "CAMS",
+      "data_type": "Forecast",
+      "url": "https://aerosol-alerts.atmosphere.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=aerosol-alerts",
+      "dataset_ids": [
+        "cams-global-atmospheric-composition-forecasts",
+        "cams-global-reanalysis-eac4"
+      ],
+      "topic": "smoke and aerosols",
+      "exercise": "Compare issue time with valid time before interpreting a forecast layer.",
+      "limitation": "A forecast alert is not a measurement at a person's breathing height.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "climate-pulse",
+      "name": "Climate Pulse",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://pulse.climate.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=climate-pulse",
+      "dataset_ids": [
+        "reanalysis-era5-single-levels",
+        "reanalysis-era5-single-levels-monthly-means"
+      ],
+      "topic": "global monitoring",
+      "exercise": "Compare absolute temperature, traditional anomaly, and relative Niño anomaly with fixed selections.",
+      "limitation": "A regional monthly mean is not a local extreme or a long-term warming level.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "climate-atlas",
+      "name": "Climate Atlas",
+      "programme": "C3S",
+      "data_type": "Reanalysis, observations, projections",
+      "url": "https://atlas.climate.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=climate-atlas",
+      "dataset_ids": [
+        "multi-origin-c3s-atlas",
+        "projections-cmip6",
+        "projections-cmip5-monthly-single-levels",
+        "reanalysis-era5-single-levels-monthly-means",
+        "reanalysis-era5-land-monthly-means",
+        "insitu-gridded-observations-europe",
+        "projections-cordex-domains-single-levels"
+      ],
+      "topic": "regional climate",
+      "exercise": "Compare a historical indicator with a future scenario using the same region and statistic.",
+      "limitation": "Conditional projections are not predictions of a particular event.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "era-explorer",
+      "name": "ERA Explorer",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://era-explorer.climate.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=era-explorer",
+      "dataset_ids": [
+        "reanalysis-era5-single-levels",
+        "reanalysis-era5-single-levels-timeseries"
+      ],
+      "topic": "local historical context",
+      "exercise": "Select a location and inspect its historical seasonal cycle; record the grid and aggregation.",
+      "limitation": "A reanalysis grid value does not reproduce every local station measurement.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "global-temperature-trend-monitor",
+      "name": "Global temperature trend monitor",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://apps.climate.copernicus.eu/global-temperature-trend-monitor/",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=global-temperature-trend-monitor",
+      "dataset_ids": [
+        "reanalysis-era5-single-levels-monthly-means",
+        "ecv-for-climate-change"
+      ],
+      "topic": "global monitoring",
+      "exercise": "Compare the app's trend method and reference period with an annual Pulse anomaly.",
+      "limitation": "One warm year and a sustained long-term warming threshold are different statements.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "nec-explorer",
+      "name": "NECD Explorer",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://apps.copernicus-climate.eu/nec-explorer",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=nec-explorer",
+      "dataset_ids": [
+        "reanalysis-era5-single-levels-monthly-means"
+      ],
+      "topic": "seasonal extremes",
+      "exercise": "Compare the country's JFM temperature and JJA precipitation selections and threshold definitions.",
+      "limitation": "Its country statistic and seasonal definitions need not match a local or Atlas average.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "methane-explorer",
+      "name": "Methane Hotspot Explorer",
+      "programme": "CAMS",
+      "data_type": "Observations",
+      "url": "https://apps.atmosphere.copernicus.eu/methane-explorer",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=methane-explorer",
+      "dataset_ids": [],
+      "topic": "emissions evidence",
+      "exercise": "Inspect a displayed plume's acquisition time, quality information, and source attribution.",
+      "limitation": "A column enhancement does not alone identify an emitter or quantify a surface exposure.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "thermal-trace",
+      "name": "Thermal Trace",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://thermaltrace.climate.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=thermal-trace",
+      "dataset_ids": [
+        "derived-utci-historical",
+        "reanalysis-era5-single-levels",
+        "reanalysis-era5-single-levels-timeseries"
+      ],
+      "topic": "heat and weather",
+      "exercise": "Compare a thermal-stress indicator with the weather variables used to derive it.",
+      "limitation": "Air temperature alone is not a complete heat-stress assessment.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "european-climate-data-explorer",
+      "name": "European Climate Data Explorer",
+      "programme": "C3S",
+      "data_type": "Reanalysis, projections",
+      "url": "https://apps.copernicus-climate.eu/c3s-apps/ecde/?theme=c3s",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=european-climate-data-explorer",
+      "dataset_ids": [
+        "sis-ecde-climate-indicators"
+      ],
+      "topic": "regional climate",
+      "exercise": "Choose a European indicator and compare its scenario, units, and region with the Atlas.",
+      "limitation": "A similarly named indicator can have a different definition or aggregation.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "weather-replay",
+      "name": "Weather Replay",
+      "programme": "C3S",
+      "data_type": "Reanalysis",
+      "url": "https://weather-replay.climate.copernicus.eu",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=weather-replay",
+      "dataset_ids": [
+        "reanalysis-era5-single-levels",
+        "reanalysis-era5-single-levels-timeseries"
+      ],
+      "topic": "heat and weather",
+      "exercise": "Inspect the same location and hour across temperature, wind, and precipitation layers.",
+      "limitation": "Hourly event evolution cannot be reconstructed from monthly global averages.",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "fire-emissions-watch",
+      "name": "Fire Emissions Watch",
+      "programme": "CAMS",
+      "data_type": "Observations, reanalysis, forecast",
+      "url": "https://apps.atmosphere.copernicus.eu/fire-emissions-watch/",
+      "overview": "https://apps.climate.copernicus.eu/overview?app=fire-emissions-watch",
+      "dataset_ids": [
+        "cams-global-fire-emissions-gfas",
+        "cams-global-atmospheric-composition-forecasts",
+        "cams-global-reanalysis-eac4"
+      ],
+      "topic": "smoke and aerosols",
+      "exercise": "Compare a fire-emissions signal with a smoke or atmospheric-composition view at matching times.",
+      "limitation": "Emissions, atmospheric concentrations, and human exposure are different quantities.",
+      "checked": "2026-11-20"
+    }
+  ]
+}

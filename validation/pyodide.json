@@ -126,6 +126,18 @@
     {
       "notebook": "29-enso-story-lab.ipynb",
       "status": "passed"
+    },
+    {
+      "notebook": "30-global-pulse-workshop.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "31-pulse-download-roundtrip.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "32-copernicus-apps-workshop.ipynb",
+      "status": "passed"
     }
   ],
   "limits": [
